@@ -7,7 +7,7 @@ import org.testcontainers.DockerClientFactory
 abstract class DockerTestSupport {
 
     companion object {
-        
+
         @BeforeAll
         @JvmStatic
         internal fun doBeforeTestSuite() {
